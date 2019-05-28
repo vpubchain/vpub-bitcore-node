@@ -46,7 +46,7 @@ describe('Bitcoind Functionality', function() {
       bitcoind = require('../').services.Bitcoin({
         spawn: {
           datadir: datadir,
-          exec: path.resolve(__dirname, '../bin/particld')
+          exec: path.resolve(__dirname, '../bin/vpubd')
         },
         node: {
           network: regtestNetwork,
