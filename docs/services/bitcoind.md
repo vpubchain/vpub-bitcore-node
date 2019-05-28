@@ -1,10 +1,10 @@
 # Particl Service
 
-The Particl Service is a Node.js interface to [Particl Core](https://github.com/vpubchain/particl-core) for querying information about the particl block chain. It will manage starting and stopping `particld` or connect to several running `particld` processes. It uses an instance of a Particl with additional indexes enabled for querying information about addresses and blocks. Results are cached for performance and there are several additional API methods added for common queries.
+The Particl Service is a Node.js interface to [Particl Core](https://github.com/vpubchain/vpub-core) for querying information about the vpub block chain. It will manage starting and stopping `particld` or connect to several running `particld` processes. It uses an instance of a Particl with additional indexes enabled for querying information about addresses and blocks. Results are cached for performance and there are several additional API methods added for common queries.
 
 ## Configuration
 
-The default configuration will include a "spawn" configuration in "particld". This defines the location of the block chain database and the location of the `particld` daemon executable. The below configuration points to a local clone of `particl`, and will start `particld` automatically with your Node.js application.
+The default configuration will include a "spawn" configuration in "particld". This defines the location of the block chain database and the location of the `particld` daemon executable. The below configuration points to a local clone of `vpub`, and will start `particld` automatically with your Node.js application.
 
 ```json
   "servicesConfig": {

@@ -35,8 +35,8 @@ This will create a directory with configuration files for your node and install 
 
 There are several add-on services available to extend the functionality of Bitcore:
 
-- [Insight API](https://github.com/vpubchain/particl-insight-api)
-- [Insight UI](https://github.com/vpubchain/particl-insight-ui)
+- [Insight API](https://github.com/vpubchain/vpub-insight-api)
+- [Insight UI](https://github.com/vpubchain/vpub-insight-ui)
 - [Bitcore Wallet Service](https://github.com/bitpay/bitcore-wallet-service)
 
 ## Documentation
@@ -56,7 +56,7 @@ Please send pull requests for bug fixes, code optimization, and ideas for improv
 
 ## License
 
-Code released under [the MIT license](https://github.com/vpubchain/particl-bitcore-node/blob/master/LICENSE).
+Code released under [the MIT license](https://github.com/vpubchain/vpub-bitcore-node/blob/master/LICENSE).
 
 Copyright 2013-2015 BitPay, Inc.
 

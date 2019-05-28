@@ -129,7 +129,7 @@ Edit `bitcore-node.json` with something similar to:
 }
 ```
 
-**Note**: To install services [insight-api](https://github.com/vpubchain/particl-insight-api) and [insight-ui](https://github.com/vpubchain/particl-insight-ui) you'll need to clone the repositories locally.
+**Note**: To install services [insight-api](https://github.com/vpubchain/vpub-insight-api) and [insight-ui](https://github.com/vpubchain/vpub-insight-ui) you'll need to clone the repositories locally.
 
 Setup symlinks for all of the services and dependencies:
 

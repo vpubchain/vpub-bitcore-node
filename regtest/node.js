@@ -9,7 +9,7 @@ var log = index.log;
 log.debug = function() {};
 
 var chai = require('chai');
-var bitcore = require('particl-bitcore-lib');
+var bitcore = require('vpub-bitcore-lib');
 var rimraf = require('rimraf');
 var node;
 
